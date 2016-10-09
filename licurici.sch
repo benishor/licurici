@@ -1,0 +1,286 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R1
+U 1 1 57E7E6F3
+P 2350 1750
+F 0 "R1" V 2430 1750 50  0000 C CNN
+F 1 "470" V 2350 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2280 1750 50  0001 C CNN
+F 3 "" H 2350 1750 50  0000 C CNN
+	1    2350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 57E7E7D8
+P 2700 1750
+F 0 "R2" V 2780 1750 50  0000 C CNN
+F 1 "39K" V 2700 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2630 1750 50  0001 C CNN
+F 3 "" H 2700 1750 50  0000 C CNN
+	1    2700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 57E7E806
+P 2950 1750
+F 0 "R3" V 3030 1750 50  0000 C CNN
+F 1 "39K" V 2950 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2880 1750 50  0001 C CNN
+F 3 "" H 2950 1750 50  0000 C CNN
+	1    2950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 57E7E83E
+P 3300 1750
+F 0 "R4" V 3380 1750 50  0000 C CNN
+F 1 "470" V 3300 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3230 1750 50  0001 C CNN
+F 3 "" H 3300 1750 50  0000 C CNN
+	1    3300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 57E7E868
+P 2350 1300
+F 0 "D1" H 2350 1400 50  0000 C CNN
+F 1 "LED" H 2350 1200 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 2350 1300 50  0001 C CNN
+F 3 "" H 2350 1300 50  0000 C CNN
+	1    2350 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 57E7E951
+P 3300 1300
+F 0 "D2" H 3300 1400 50  0000 C CNN
+F 1 "LED" H 3300 1200 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 3300 1300 50  0001 C CNN
+F 3 "" H 3300 1300 50  0000 C CNN
+	1    3300 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP_Small C1
+U 1 1 57E7E991
+P 2500 2050
+F 0 "C1" H 2510 2120 50  0000 L CNN
+F 1 "10u" H 2510 1970 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 2500 2050 50  0001 C CNN
+F 3 "" H 2500 2050 50  0000 C CNN
+	1    2500 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP_Small C2
+U 1 1 57E7EA3F
+P 3150 2150
+F 0 "C2" H 3160 2220 50  0000 L CNN
+F 1 "10u" H 3160 2070 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x4.5" H 3150 2150 50  0001 C CNN
+F 3 "" H 3150 2150 50  0000 C CNN
+	1    3150 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L MMBT3904 Q1
+U 1 1 57E7EA91
+P 2450 2500
+F 0 "Q1" H 2650 2575 50  0000 L CNN
+F 1 "MMBT3904" H 2650 2500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2650 2425 50  0000 L CIN
+F 3 "" H 2450 2500 50  0000 L CNN
+	1    2450 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MMBT3904 Q2
+U 1 1 57E7EADD
+P 3200 2500
+F 0 "Q2" H 3400 2575 50  0000 L CNN
+F 1 "MMBT3904" H 3400 2500 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3400 2425 50  0000 L CIN
+F 3 "" H 3200 2500 50  0000 L CNN
+	1    3200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 57E7F23A
+P 2850 2800
+F 0 "#PWR01" H 2850 2550 50  0001 C CNN
+F 1 "GND" H 2850 2650 50  0000 C CNN
+F 2 "" H 2850 2800 50  0000 C CNN
+F 3 "" H 2850 2800 50  0000 C CNN
+	1    2850 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2300 2350 1900
+Wire Wire Line
+	2350 1600 2350 1500
+Wire Wire Line
+	3300 1500 3300 1600
+Wire Wire Line
+	3300 1900 3300 2300
+Wire Wire Line
+	3250 2150 3300 2150
+Connection ~ 3300 2150
+Wire Wire Line
+	2350 2700 3300 2700
+Connection ~ 2850 2700
+Wire Wire Line
+	2350 1100 2350 1050
+Wire Wire Line
+	2350 1050 3300 1050
+Wire Wire Line
+	3300 1050 3300 1100
+Wire Wire Line
+	2700 1600 2700 1050
+Connection ~ 2700 1050
+Wire Wire Line
+	2950 900  2950 1600
+Connection ~ 2950 1050
+Wire Wire Line
+	2650 2500 2700 2500
+Wire Wire Line
+	2700 2500 2700 1900
+Wire Wire Line
+	3000 2500 2950 2500
+Wire Wire Line
+	2950 2500 2950 1900
+Wire Wire Line
+	2400 2050 2350 2050
+Connection ~ 2350 2050
+Wire Wire Line
+	2600 2050 2950 2050
+Connection ~ 2950 2050
+Wire Wire Line
+	3050 2150 2700 2150
+Connection ~ 2700 2150
+$Comp
+L CONN_01X02 P1
+U 1 1 57E7FB67
+P 4050 1100
+F 0 "P1" H 4050 1250 50  0000 C CNN
+F 1 "POWER" V 4150 1100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4050 1100 50  0001 C CNN
+F 3 "" H 4050 1100 50  0000 C CNN
+	1    4050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 57E7FCED
+P 3800 1250
+F 0 "#PWR02" H 3800 1000 50  0001 C CNN
+F 1 "GND" H 3800 1100 50  0000 C CNN
+F 2 "" H 3800 1250 50  0000 C CNN
+F 3 "" H 3800 1250 50  0000 C CNN
+	1    3800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1250 3800 1150
+Wire Wire Line
+	3800 1150 3950 1150
+$Comp
+L +9V #PWR03
+U 1 1 57E7FD8E
+P 3800 950
+F 0 "#PWR03" H 3800 800 50  0001 C CNN
+F 1 "+9V" H 3800 1090 50  0000 C CNN
+F 2 "" H 3800 950 50  0000 C CNN
+F 3 "" H 3800 950 50  0000 C CNN
+	1    3800 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 950  3800 1050
+Connection ~ 3800 1050
+Wire Wire Line
+	3750 1050 3850 1050
+Text GLabel 2950 900  1    60   Input ~ 0
+PWR
+Text GLabel 3750 1050 0    60   Input ~ 0
+PWR
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 57E80496
+P 3950 800
+F 0 "#FLG04" H 3950 895 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 980 50  0000 C CNN
+F 2 "" H 3950 800 50  0000 C CNN
+F 3 "" H 3950 800 50  0000 C CNN
+	1    3950 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 800  3950 1050
+Wire Wire Line
+	3950 1050 3800 1050
+Wire Wire Line
+	2850 2800 2850 2700
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 57E81184
+P 3950 1400
+F 0 "#FLG05" H 3950 1495 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 1580 50  0000 C CNN
+F 2 "" H 3950 1400 50  0000 C CNN
+F 3 "" H 3950 1400 50  0000 C CNN
+	1    3950 1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3950 1150 3950 1400
+Connection ~ 3850 1150
+$EndSCHEMATC
